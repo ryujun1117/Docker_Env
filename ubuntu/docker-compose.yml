@@ -1,0 +1,15 @@
+version: "3"
+services:
+    ubuntu:
+        image: ubuntu:20.04
+        # ports:
+        #   - 8002:8002
+        # restart: always
+        #restart: always
+        build: .
+        container_name: 'ubuntu_plane'
+        #working_dir: '/root/'
+        volumes:
+            - .\opt:/usr/local/bin
+        tty: true
+        
