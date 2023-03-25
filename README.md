@@ -44,5 +44,9 @@ SQLマジックコマンド拡張設定（notebook上で実行）
 データベースを作成"sample.db"  
 > $ %sql sqlite:///sample.db  
 
+参考
+https://chayarokurokuro.hatenablog.com/entry/2022/01/21/214715
+
+
 
 
