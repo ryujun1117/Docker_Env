@@ -33,3 +33,16 @@ tokenを確認
 
 ローカルホスト、port=8888で起動  
 localhost:8888  
+
+# jupyterlab_sqlite3
+jupyterlab上でsqlを操作する基本  
+適当なディレクトリにフィルをコピー  
+コンテナ構築は上記と同様。コンテナ名は"jupyterlab_sqlite3"  
+SQLマジックコマンド拡張設定（notebook上で実行）  
+> $ %load_ext sql
+
+データベースを作成"sample.db"  
+> $ %sql sqlite:///sample.db  
+
+
+
