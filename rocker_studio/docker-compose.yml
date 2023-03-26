@@ -1,0 +1,13 @@
+
+# vi docker-compose.yml
+version: '3'
+services:
+  rstudio:
+    build: .
+    image: rocker/rstudio:4
+    container_name: rstudio
+    working_dir: /work
+    volumes:
+      - ./work:/work
+    ports:
+      - "8787:8787"
