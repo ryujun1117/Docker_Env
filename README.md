@@ -47,7 +47,7 @@ SQLマジックコマンド拡張設定（notebook上で実行）
 参考
 https://chayarokurokuro.hatenablog.com/entry/2022/01/21/214715
 
-# rocker/studio
+# rocker_studio
 image: rocker/studio:4を利用  
 port=8787で起動。パスワード認証なし  
 > sudo docker-compose up -d --build
