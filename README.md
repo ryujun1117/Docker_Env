@@ -1,7 +1,7 @@
 "# Docker_Env" 
 
 dockerの起動（環境はWSLを前提とする）
-> sudo service docker start
+> sudo service docker start  
 > sudo service docker status
 
 #Python系
@@ -17,7 +17,7 @@ dockerの起動（環境はWSLを前提とする）
 
 #Linux系
 #ubuntu, centos
-> $ docker-compose up -d --build
+> $ docker-compose up -d --build  
 > $ docker exec -it [container_name] /bin/bash
 
 # jupyterlab
