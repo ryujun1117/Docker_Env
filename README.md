@@ -52,5 +52,9 @@ image: rocker/studio:4を利用
 port=8787で起動。パスワード認証なし  
 > sudo docker-compose up -d --build
 
+# golang
+image: golang: 1.20を利用
+tty: true に設定した。  
+
 
 
