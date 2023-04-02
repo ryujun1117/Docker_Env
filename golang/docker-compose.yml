@@ -1,0 +1,14 @@
+
+# vi docker-compose.yml
+version: '3'
+services:
+  golang:
+    build: .
+    image: golang:1.20
+    container_name: golang
+    working_dir: /work
+    volumes:
+      - ./work:/work
+    #ports:
+    #  - "8787:8787"
+    tty: true
