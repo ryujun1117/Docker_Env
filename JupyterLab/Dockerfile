@@ -5,7 +5,6 @@ RUN apt-get update
 RUN apt-get install npm -y
 RUN apt-get install nodejs -y
 
-
 RUN pip install --upgrade pip
 RUN python -m pip install jupyterlab
 
@@ -17,7 +16,6 @@ RUN pip install jupyterlab-language-pack-ja-JP
 
 # lckr/jupyterlab_variableinspector
 RUN pip install lckr-jupyterlab-variableinspector==3.0.7
-
 
 # jupyterlab-lsp
 RUN pip install jupyterlab-lsp
