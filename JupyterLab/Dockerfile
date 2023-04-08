@@ -1,8 +1,6 @@
 # vi Dockerfile
 FROM python:3.9
 
-ENV GOOGLE_APPLICATION_CREDENTIALS "/work/main-cyclist-382621-9b081e83e28c.json"
-
 RUN apt-get update
 RUN apt-get install npm -y
 RUN apt-get install nodejs -y
