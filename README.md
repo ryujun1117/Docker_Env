@@ -34,6 +34,9 @@ tokenを確認
 ローカルホスト、port=8888で起動  
 localhost:8888  
 
+jupyterを再起動  
+> $ sudo docker restart [container_name]  
+
 # jupyterlab_sqlite3
 jupyterlab上でsqlを操作する基本  
 適当なディレクトリにフィルをコピー  
